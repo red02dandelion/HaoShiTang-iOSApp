@@ -7,22 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF60001F1D1674D10047BFF4 /* 启动图.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF60001E1D1674D10047BFF4 /* 启动图.jpg */; };
+		AF60002E1D168E330047BFF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6000231D168E330047BFF4 /* AppDelegate.m */; };
 		AF77E44D1D157BC4002B6324 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF77E44C1D157BC4002B6324 /* main.m */; };
-		AF77E4501D157BC4002B6324 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF77E44F1D157BC4002B6324 /* AppDelegate.m */; };
-		AF77E4531D157BC4002B6324 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF77E4521D157BC4002B6324 /* ViewController.m */; };
-		AF77E4561D157BC4002B6324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF77E4541D157BC4002B6324 /* Main.storyboard */; };
 		AF77E4581D157BC4002B6324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF77E4571D157BC4002B6324 /* Assets.xcassets */; };
 		AF77E45B1D157BC4002B6324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF77E4591D157BC4002B6324 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF60001E1D1674D10047BFF4 /* 启动图.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "启动图.jpg"; path = "../../../../../../../Downloads/项目搜集/IOS资料/好食堂设计图/启动图.jpg"; sourceTree = "<group>"; };
+		AF6000221D168E330047BFF4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF6000231D168E330047BFF4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AF77E4481D157BC4002B6324 /* HaoShiTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaoShiTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF77E44C1D157BC4002B6324 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AF77E44E1D157BC4002B6324 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AF77E44F1D157BC4002B6324 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AF77E4511D157BC4002B6324 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AF77E4521D157BC4002B6324 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AF77E4551D157BC4002B6324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF77E4571D157BC4002B6324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF77E45A1D157BC4002B6324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF77E45C1D157BC4002B6324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,6 +36,110 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF6000201D168E330047BFF4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AF6000211D168E330047BFF4 /* AppDelegate */,
+				AF6000241D168E330047BFF4 /* Commen */,
+				AF6000251D168E330047BFF4 /* Globle */,
+				AF6000261D168E330047BFF4 /* Src */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AF6000211D168E330047BFF4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				AF6000221D168E330047BFF4 /* AppDelegate.h */,
+				AF6000231D168E330047BFF4 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		AF6000241D168E330047BFF4 /* Commen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Commen;
+			sourceTree = "<group>";
+		};
+		AF6000251D168E330047BFF4 /* Globle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Globle;
+			sourceTree = "<group>";
+		};
+		AF6000261D168E330047BFF4 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				AF6000271D168E330047BFF4 /* HomePage */,
+				AF6000281D168E330047BFF4 /* Login&regist */,
+				AF6000291D168E330047BFF4 /* Mine */,
+				AF60002A1D168E330047BFF4 /* Nutritious_food */,
+				AF60002B1D168E330047BFF4 /* Nutritious_question */,
+				AF60002C1D168E330047BFF4 /* Nutritious_record */,
+				AF60002D1D168E330047BFF4 /* Parents_field */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		AF6000271D168E330047BFF4 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		AF6000281D168E330047BFF4 /* Login&regist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Login&regist";
+			sourceTree = "<group>";
+		};
+		AF6000291D168E330047BFF4 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		AF60002A1D168E330047BFF4 /* Nutritious_food */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Nutritious_food;
+			sourceTree = "<group>";
+		};
+		AF60002B1D168E330047BFF4 /* Nutritious_question */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Nutritious_question;
+			sourceTree = "<group>";
+		};
+		AF60002C1D168E330047BFF4 /* Nutritious_record */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Nutritious_record;
+			sourceTree = "<group>";
+		};
+		AF60002D1D168E330047BFF4 /* Parents_field */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Parents_field;
+			sourceTree = "<group>";
+		};
+		AF60002F1D168E5F0047BFF4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		AF77E43F1D157BC3002B6324 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +159,8 @@
 		AF77E44A1D157BC4002B6324 /* HaoShiTang */ = {
 			isa = PBXGroup;
 			children = (
-				AF77E44E1D157BC4002B6324 /* AppDelegate.h */,
-				AF77E44F1D157BC4002B6324 /* AppDelegate.m */,
-				AF77E4511D157BC4002B6324 /* ViewController.h */,
-				AF77E4521D157BC4002B6324 /* ViewController.m */,
-				AF77E4541D157BC4002B6324 /* Main.storyboard */,
-				AF77E4571D157BC4002B6324 /* Assets.xcassets */,
-				AF77E4591D157BC4002B6324 /* LaunchScreen.storyboard */,
-				AF77E45C1D157BC4002B6324 /* Info.plist */,
+				AF6000201D168E330047BFF4 /* Classes */,
+				AF60002F1D168E5F0047BFF4 /* Resources */,
 				AF77E44B1D157BC4002B6324 /* Supporting Files */,
 			);
 			path = HaoShiTang;
@@ -74,6 +169,10 @@
 		AF77E44B1D157BC4002B6324 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AF77E4571D157BC4002B6324 /* Assets.xcassets */,
+				AF77E45C1D157BC4002B6324 /* Info.plist */,
+				AF77E4591D157BC4002B6324 /* LaunchScreen.storyboard */,
+				AF60001E1D1674D10047BFF4 /* 启动图.jpg */,
 				AF77E44C1D157BC4002B6324 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -139,7 +238,7 @@
 			files = (
 				AF77E45B1D157BC4002B6324 /* LaunchScreen.storyboard in Resources */,
 				AF77E4581D157BC4002B6324 /* Assets.xcassets in Resources */,
-				AF77E4561D157BC4002B6324 /* Main.storyboard in Resources */,
+				AF60001F1D1674D10047BFF4 /* 启动图.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF77E4531D157BC4002B6324 /* ViewController.m in Sources */,
-				AF77E4501D157BC4002B6324 /* AppDelegate.m in Sources */,
+				AF60002E1D168E330047BFF4 /* AppDelegate.m in Sources */,
 				AF77E44D1D157BC4002B6324 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,14 +257,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AF77E4541D157BC4002B6324 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF77E4551D157BC4002B6324 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AF77E4591D157BC4002B6324 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -215,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -254,7 +344,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -270,6 +360,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = come.zhanglu.HaoShiTang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -281,6 +372,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = come.zhanglu.HaoShiTang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -303,6 +395,7 @@
 				AF77E4611D157BC4002B6324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
