@@ -1,0 +1,30 @@
+//
+//  HaoShiTang.pch
+//  HaoShiTang
+//
+//  Created by zhanglu on 16/6/19.
+//  Copyright © 2016年 zhanglu. All rights reserved.
+//
+
+#ifndef HaoShiTang_pch
+#define HaoShiTang_pch
+
+#import "UITextField+placeHolder.h"
+
+
+#define regViewBagColor [UIColor colorWithRed:224 / 255.0 green:224 / 255.0 blue:224 / 255.0 alpha:1]
+
+/*********************自定义LOG*********************************/
+#define ZLFunc ZLLog(@"%s",__func__)
+
+#ifdef DEBUG // 调试
+#define ZLLog(...) NSLog(__VA_ARGS__)
+
+#else // 发布
+
+#define ZLLog(...)
+
+#endif
+/*********************自定义LOG*********************************/
+
+#endif /* HaoShiTang_pch */

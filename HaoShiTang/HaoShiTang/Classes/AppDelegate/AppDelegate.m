@@ -16,8 +16,41 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+     _window = [[UIWindow alloc]init];
+    
+    // 判断是否是已登陆状态，如果否则跳转到登陆页，如果是则跳转到首页
+    
+    if (![self isLogined]) {
+        
+        // window的跟控制器设置为登陆页
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"login" bundle:[NSBundle mainBundle]];
+        UINavigationController *loginVC = [storyboard instantiateInitialViewController];
+        NSLog(@"%@",[loginVC class]);
+        
+        _window.rootViewController = loginVC;
+        
+        ZLLog(@"shiyixia");
+    } else {
+        
+         // window的跟控制器设置首页
+        UIViewController *vc = [[UIViewController alloc]init];
+        vc.view.frame = [UIScreen mainScreen].bounds;
+        vc.view.backgroundColor = [UIColor redColor];
+        
+        _window.rootViewController = vc;
+        
+        }
+    
+      [_window makeKeyAndVisible];
+    
     return YES;
+}
+
+-(BOOL)isLogined {
+    
+    
+    return [[NSUserDefaults standardUserDefaults]objectForKey:@"uid"];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

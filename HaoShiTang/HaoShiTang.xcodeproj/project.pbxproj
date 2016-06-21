@@ -12,6 +12,16 @@
 		AF77E44D1D157BC4002B6324 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF77E44C1D157BC4002B6324 /* main.m */; };
 		AF77E4581D157BC4002B6324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF77E4571D157BC4002B6324 /* Assets.xcassets */; };
 		AF77E45B1D157BC4002B6324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF77E4591D157BC4002B6324 /* LaunchScreen.storyboard */; };
+		AF7C4FA61D1698EC00BFB9EC /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7C4FA51D1698EC00BFB9EC /* login.storyboard */; };
+		AF8A7B011D17DE3200E27C73 /* loginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF8A7B001D17DE3200E27C73 /* loginView.xib */; };
+		AF8A7B041D17E8E300E27C73 /* loginFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8A7B031D17E8E300E27C73 /* loginFiled.m */; };
+		AF8A7B071D17E8F000E27C73 /* loginTextFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8A7B061D17E8F000E27C73 /* loginTextFiled.m */; };
+		AF8A7B0B1D17F21400E27C73 /* UITextField+placeHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8A7B0A1D17F21400E27C73 /* UITextField+placeHolder.m */; };
+		AF8A7B0E1D18224C00E27C73 /* registViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8A7B0D1D18224C00E27C73 /* registViewController.m */; };
+		AFD439A51D16FBD500B39549 /* forgetPwd.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD439A01D16FBD500B39549 /* forgetPwd.m */; };
+		AFD439A61D16FBD500B39549 /* loginNav.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD439A21D16FBD500B39549 /* loginNav.m */; };
+		AFD439A71D16FBD500B39549 /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD439A41D16FBD500B39549 /* loginViewController.m */; };
+		AFD439AB1D16FC1600B39549 /* loginView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD439AA1D16FC1600B39549 /* loginView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +33,25 @@
 		AF77E4571D157BC4002B6324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF77E45A1D157BC4002B6324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF77E45C1D157BC4002B6324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7C4FA51D1698EC00BFB9EC /* login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = login.storyboard; sourceTree = "<group>"; };
+		AF8A7B001D17DE3200E27C73 /* loginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = loginView.xib; sourceTree = "<group>"; };
+		AF8A7B021D17E8E300E27C73 /* loginFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginFiled.h; sourceTree = "<group>"; };
+		AF8A7B031D17E8E300E27C73 /* loginFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginFiled.m; sourceTree = "<group>"; };
+		AF8A7B051D17E8F000E27C73 /* loginTextFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginTextFiled.h; sourceTree = "<group>"; };
+		AF8A7B061D17E8F000E27C73 /* loginTextFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginTextFiled.m; sourceTree = "<group>"; };
+		AF8A7B091D17F21400E27C73 /* UITextField+placeHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+placeHolder.h"; path = "../../../../../../Zl-6 项目准备/Day061/08 全部主题cell搭建/04 自定义cell的全部完成/BUDeJie/BUDeJie/classes/FriendTrend(关注)/View/UITextField+placeHolder.h"; sourceTree = "<group>"; };
+		AF8A7B0A1D17F21400E27C73 /* UITextField+placeHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+placeHolder.m"; path = "../../../../../../Zl-6 项目准备/Day061/08 全部主题cell搭建/04 自定义cell的全部完成/BUDeJie/BUDeJie/classes/FriendTrend(关注)/View/UITextField+placeHolder.m"; sourceTree = "<group>"; };
+		AF8A7B0C1D18224C00E27C73 /* registViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registViewController.h; sourceTree = "<group>"; };
+		AF8A7B0D1D18224C00E27C73 /* registViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registViewController.m; sourceTree = "<group>"; };
+		AFD4399D1D16AA8400B39549 /* HaoShiTang.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaoShiTang.pch; sourceTree = "<group>"; };
+		AFD4399F1D16FBD500B39549 /* forgetPwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = forgetPwd.h; sourceTree = "<group>"; };
+		AFD439A01D16FBD500B39549 /* forgetPwd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = forgetPwd.m; sourceTree = "<group>"; };
+		AFD439A11D16FBD500B39549 /* loginNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginNav.h; sourceTree = "<group>"; };
+		AFD439A21D16FBD500B39549 /* loginNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginNav.m; sourceTree = "<group>"; };
+		AFD439A31D16FBD500B39549 /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		AFD439A41D16FBD500B39549 /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		AFD439A91D16FC1600B39549 /* loginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginView.h; sourceTree = "<group>"; };
+		AFD439AA1D16FC1600B39549 /* loginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +68,7 @@
 		AF6000201D168E330047BFF4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				AF8A7B081D17F1C500E27C73 /* Catagory */,
 				AF6000211D168E330047BFF4 /* AppDelegate */,
 				AF6000241D168E330047BFF4 /* Commen */,
 				AF6000251D168E330047BFF4 /* Globle */,
@@ -94,6 +124,9 @@
 		AF6000281D168E330047BFF4 /* Login&regist */ = {
 			isa = PBXGroup;
 			children = (
+				AF7C4FA51D1698EC00BFB9EC /* login.storyboard */,
+				AFD439A81D16FBF100B39549 /* View */,
+				AFD4399E1D16FBD400B39549 /* Controller */,
 			);
 			path = "Login&regist";
 			sourceTree = "<group>";
@@ -174,9 +207,49 @@
 				AF77E4591D157BC4002B6324 /* LaunchScreen.storyboard */,
 				AF60001E1D1674D10047BFF4 /* 启动图.jpg */,
 				AF77E44C1D157BC4002B6324 /* main.m */,
+				AFD4399D1D16AA8400B39549 /* HaoShiTang.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		AF8A7B081D17F1C500E27C73 /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				AF8A7B091D17F21400E27C73 /* UITextField+placeHolder.h */,
+				AF8A7B0A1D17F21400E27C73 /* UITextField+placeHolder.m */,
+			);
+			path = Catagory;
+			sourceTree = "<group>";
+		};
+		AFD4399E1D16FBD400B39549 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AFD4399F1D16FBD500B39549 /* forgetPwd.h */,
+				AFD439A01D16FBD500B39549 /* forgetPwd.m */,
+				AFD439A11D16FBD500B39549 /* loginNav.h */,
+				AFD439A21D16FBD500B39549 /* loginNav.m */,
+				AFD439A31D16FBD500B39549 /* loginViewController.h */,
+				AFD439A41D16FBD500B39549 /* loginViewController.m */,
+				AF8A7B0C1D18224C00E27C73 /* registViewController.h */,
+				AF8A7B0D1D18224C00E27C73 /* registViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AFD439A81D16FBF100B39549 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AFD439A91D16FC1600B39549 /* loginView.h */,
+				AFD439AA1D16FC1600B39549 /* loginView.m */,
+				AF8A7B001D17DE3200E27C73 /* loginView.xib */,
+				AF8A7B021D17E8E300E27C73 /* loginFiled.h */,
+				AF8A7B031D17E8E300E27C73 /* loginFiled.m */,
+				AF8A7B051D17E8F000E27C73 /* loginTextFiled.h */,
+				AF8A7B061D17E8F000E27C73 /* loginTextFiled.m */,
+			);
+			name = View;
+			path = "HaoShiTang/Classes/Src/Login&regist/View";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -236,9 +309,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF7C4FA61D1698EC00BFB9EC /* login.storyboard in Resources */,
 				AF77E45B1D157BC4002B6324 /* LaunchScreen.storyboard in Resources */,
 				AF77E4581D157BC4002B6324 /* Assets.xcassets in Resources */,
 				AF60001F1D1674D10047BFF4 /* 启动图.jpg in Resources */,
+				AF8A7B011D17DE3200E27C73 /* loginView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +324,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFD439A71D16FBD500B39549 /* loginViewController.m in Sources */,
 				AF60002E1D168E330047BFF4 /* AppDelegate.m in Sources */,
+				AFD439A61D16FBD500B39549 /* loginNav.m in Sources */,
+				AF8A7B041D17E8E300E27C73 /* loginFiled.m in Sources */,
 				AF77E44D1D157BC4002B6324 /* main.m in Sources */,
+				AF8A7B071D17E8F000E27C73 /* loginTextFiled.m in Sources */,
+				AF8A7B0B1D17F21400E27C73 /* UITextField+placeHolder.m in Sources */,
+				AFD439AB1D16FC1600B39549 /* loginView.m in Sources */,
+				AF8A7B0E1D18224C00E27C73 /* registViewController.m in Sources */,
+				AFD439A51D16FBD500B39549 /* forgetPwd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = HaoShiTang/HaoShiTang.pch;
 				INFOPLIST_FILE = HaoShiTang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = come.zhanglu.HaoShiTang;
@@ -368,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = HaoShiTang/HaoShiTang.pch;
 				INFOPLIST_FILE = HaoShiTang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = come.zhanglu.HaoShiTang;
