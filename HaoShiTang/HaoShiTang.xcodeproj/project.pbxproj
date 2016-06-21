@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF4D3EB61D195CC100C593B3 /* bindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4D3EB51D195CC100C593B3 /* bindViewController.m */; };
+		AF4D3EB91D195F8D00C593B3 /* DateFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4D3EB81D195F8D00C593B3 /* DateFiled.m */; };
+		AF4D3EBC1D19786F00C593B3 /* genderPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4D3EBB1D19786F00C593B3 /* genderPickViewController.m */; };
+		AF4D3EBF1D197C3C00C593B3 /* genderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4D3EBE1D197C3C00C593B3 /* genderButton.m */; };
+		AF4D3EC21D197E2200C593B3 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4D3EC11D197E2200C593B3 /* UIView+frame.m */; };
+		AF4D3EE81D19885900C593B3 /* confirmInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4D3EE71D19885900C593B3 /* confirmInfoViewController.m */; };
 		AF60001F1D1674D10047BFF4 /* 启动图.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF60001E1D1674D10047BFF4 /* 启动图.jpg */; };
 		AF60002E1D168E330047BFF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6000231D168E330047BFF4 /* AppDelegate.m */; };
 		AF77E44D1D157BC4002B6324 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF77E44C1D157BC4002B6324 /* main.m */; };
@@ -25,6 +31,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF4D3EB41D195CC100C593B3 /* bindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bindViewController.h; sourceTree = "<group>"; };
+		AF4D3EB51D195CC100C593B3 /* bindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bindViewController.m; sourceTree = "<group>"; };
+		AF4D3EB71D195F8D00C593B3 /* DateFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateFiled.h; path = "../../../../../../../../Zl-2 UI/Day032/code/06 自定义生日键盘/05 自定义国旗键盘2/DateTextF/DateFiled.h"; sourceTree = "<group>"; };
+		AF4D3EB81D195F8D00C593B3 /* DateFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateFiled.m; path = "../../../../../../../../Zl-2 UI/Day032/code/06 自定义生日键盘/05 自定义国旗键盘2/DateTextF/DateFiled.m"; sourceTree = "<group>"; };
+		AF4D3EBA1D19786F00C593B3 /* genderPickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genderPickViewController.h; sourceTree = "<group>"; };
+		AF4D3EBB1D19786F00C593B3 /* genderPickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = genderPickViewController.m; sourceTree = "<group>"; };
+		AF4D3EBD1D197C3C00C593B3 /* genderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genderButton.h; sourceTree = "<group>"; };
+		AF4D3EBE1D197C3C00C593B3 /* genderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = genderButton.m; sourceTree = "<group>"; };
+		AF4D3EC01D197E2200C593B3 /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+frame.h"; path = "../../../../../../Zl-2 UI/Day041/06 彩票（自定义标题按钮交换标题）/彩票/classes/Other/catagory/UIView+frame.h"; sourceTree = "<group>"; };
+		AF4D3EC11D197E2200C593B3 /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+frame.m"; path = "../../../../../../Zl-2 UI/Day041/06 彩票（自定义标题按钮交换标题）/彩票/classes/Other/catagory/UIView+frame.m"; sourceTree = "<group>"; };
+		AF4D3EE61D19885900C593B3 /* confirmInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = confirmInfoViewController.h; sourceTree = "<group>"; };
+		AF4D3EE71D19885900C593B3 /* confirmInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = confirmInfoViewController.m; sourceTree = "<group>"; };
 		AF60001E1D1674D10047BFF4 /* 启动图.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "启动图.jpg"; path = "../../../../../../../Downloads/项目搜集/IOS资料/好食堂设计图/启动图.jpg"; sourceTree = "<group>"; };
 		AF6000221D168E330047BFF4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AF6000231D168E330047BFF4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -215,6 +233,8 @@
 		AF8A7B081D17F1C500E27C73 /* Catagory */ = {
 			isa = PBXGroup;
 			children = (
+				AF4D3EC01D197E2200C593B3 /* UIView+frame.h */,
+				AF4D3EC11D197E2200C593B3 /* UIView+frame.m */,
 				AF8A7B091D17F21400E27C73 /* UITextField+placeHolder.h */,
 				AF8A7B0A1D17F21400E27C73 /* UITextField+placeHolder.m */,
 			);
@@ -232,6 +252,12 @@
 				AFD439A41D16FBD500B39549 /* loginViewController.m */,
 				AF8A7B0C1D18224C00E27C73 /* registViewController.h */,
 				AF8A7B0D1D18224C00E27C73 /* registViewController.m */,
+				AF4D3EB41D195CC100C593B3 /* bindViewController.h */,
+				AF4D3EB51D195CC100C593B3 /* bindViewController.m */,
+				AF4D3EBA1D19786F00C593B3 /* genderPickViewController.h */,
+				AF4D3EBB1D19786F00C593B3 /* genderPickViewController.m */,
+				AF4D3EE61D19885900C593B3 /* confirmInfoViewController.h */,
+				AF4D3EE71D19885900C593B3 /* confirmInfoViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -239,6 +265,8 @@
 		AFD439A81D16FBF100B39549 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AF4D3EB71D195F8D00C593B3 /* DateFiled.h */,
+				AF4D3EB81D195F8D00C593B3 /* DateFiled.m */,
 				AFD439A91D16FC1600B39549 /* loginView.h */,
 				AFD439AA1D16FC1600B39549 /* loginView.m */,
 				AF8A7B001D17DE3200E27C73 /* loginView.xib */,
@@ -246,6 +274,8 @@
 				AF8A7B031D17E8E300E27C73 /* loginFiled.m */,
 				AF8A7B051D17E8F000E27C73 /* loginTextFiled.h */,
 				AF8A7B061D17E8F000E27C73 /* loginTextFiled.m */,
+				AF4D3EBD1D197C3C00C593B3 /* genderButton.h */,
+				AF4D3EBE1D197C3C00C593B3 /* genderButton.m */,
 			);
 			name = View;
 			path = "HaoShiTang/Classes/Src/Login&regist/View";
@@ -326,14 +356,20 @@
 			files = (
 				AFD439A71D16FBD500B39549 /* loginViewController.m in Sources */,
 				AF60002E1D168E330047BFF4 /* AppDelegate.m in Sources */,
+				AF4D3EB61D195CC100C593B3 /* bindViewController.m in Sources */,
+				AF4D3EC21D197E2200C593B3 /* UIView+frame.m in Sources */,
+				AF4D3EBC1D19786F00C593B3 /* genderPickViewController.m in Sources */,
 				AFD439A61D16FBD500B39549 /* loginNav.m in Sources */,
 				AF8A7B041D17E8E300E27C73 /* loginFiled.m in Sources */,
+				AF4D3EBF1D197C3C00C593B3 /* genderButton.m in Sources */,
 				AF77E44D1D157BC4002B6324 /* main.m in Sources */,
 				AF8A7B071D17E8F000E27C73 /* loginTextFiled.m in Sources */,
 				AF8A7B0B1D17F21400E27C73 /* UITextField+placeHolder.m in Sources */,
+				AF4D3EB91D195F8D00C593B3 /* DateFiled.m in Sources */,
 				AFD439AB1D16FC1600B39549 /* loginView.m in Sources */,
 				AF8A7B0E1D18224C00E27C73 /* registViewController.m in Sources */,
 				AFD439A51D16FBD500B39549 /* forgetPwd.m in Sources */,
+				AF4D3EE81D19885900C593B3 /* confirmInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

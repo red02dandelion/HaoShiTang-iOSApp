@@ -32,7 +32,7 @@
     _netStepBtn.enabled = NO;
     _netStepBtn.backgroundColor = [UIColor grayColor];
     
-    self.view.backgroundColor = regViewBagColor;
+    self.view.backgroundColor = globleVCBagColor;
 }
 
 //
