@@ -7,6 +7,7 @@
 //
 
 #import "loginView.h"
+#import "HSTTabBarController.h"
 @interface loginView ()
 
 // 手机号
@@ -42,6 +43,15 @@
 }
 
 
+// 登陆、先写到这里吧，懒得改了
+- (IBAction)login:(id)sender {
+    
+    HSTTabBarController *HSTtabr = [[HSTTabBarController alloc]init];
+    
+    [UIApplication sharedApplication].keyWindow.rootViewController = HSTtabr;
+    
+}
+
 - (void)awakeFromNib {
     
     self.autoresizingMask = NO;
@@ -51,6 +61,10 @@
     
     self.myblock(@"forgetPwd");
 }
+
+
+
+
 
 //-(void)layoutSubviews {
 //   

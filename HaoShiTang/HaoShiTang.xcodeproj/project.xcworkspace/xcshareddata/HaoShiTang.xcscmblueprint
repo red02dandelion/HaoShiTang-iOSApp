@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "37D7FE5665CABD4A7580851BC2953A580CC4E9C8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "37D7FE5665CABD4A7580851BC2953A580CC4E9C8" : 0,
+    "B48B11F4D83A30C40BAEA6938C3CD5ED9BA8D0A8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "19D7DADF-B837-45B2-9B12-E30CE720E541",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "37D7FE5665CABD4A7580851BC2953A580CC4E9C8" : "HaoShiTang-iOSApp\/",
+    "B48B11F4D83A30C40BAEA6938C3CD5ED9BA8D0A8" : "..\/Zl-6%20%E9%A1%B9%E7%9B%AE%E5%87%86%E5%A4%87\/Day061\/08%20%E5%85%A8%E9%83%A8%E4%B8%BB%E9%A2%98cell%E6%90%AD%E5%BB%BA\/04%20%E8%87%AA%E5%AE%9A%E4%B9%89cell%E7%9A%84%E5%85%A8%E9%83%A8%E5%AE%8C%E6%88%90"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HaoShiTang",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HaoShiTang\/HaoShiTang.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:red02dandelion\/HaoShiTang-iOSApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "37D7FE5665CABD4A7580851BC2953A580CC4E9C8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:zhaqi\/ZLBUDeJie.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B48B11F4D83A30C40BAEA6938C3CD5ED9BA8D0A8"
+    }
+  ]
+}

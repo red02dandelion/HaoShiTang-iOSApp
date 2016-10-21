@@ -9,14 +9,24 @@
 #ifndef HaoShiTang_pch
 #define HaoShiTang_pch
 
-/**
- *  分类
- *
- */
-#import "UITextField+placeHolder.h"
-#import "UIView+frame.h"
 
 #define globleVCBagColor [UIColor colorWithRed:224 / 255.0 green:224 / 255.0 blue:224 / 255.0 alpha:1]
+
+
+/*******************分类***********************/
+#import "UITextField+placeHolder.h"
+#import "UIView+frame.h"
+#import "UIImage+Image.h"
+#import "UIBarButtonItem+Item.h"
+/*******************分类***********************/
+
+
+/*******************屏幕尺寸***********************/
+#define ZLScreenF   [UIScreen mainScreen].bounds
+#define ZLSCreenH   [UIScreen mainScreen].bounds.size.height
+#define ZLSCreenW   [UIScreen mainScreen].bounds.size.width
+/*******************屏幕尺寸***********************/
+
 
 /*********************自定义LOG*********************************/
 #define ZLFunc ZLLog(@"%s",__func__)

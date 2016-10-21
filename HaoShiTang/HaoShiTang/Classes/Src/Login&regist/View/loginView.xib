@@ -92,6 +92,9 @@
                     <state key="disabled">
                         <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="login:" destination="iN0-l3-epB" eventType="touchUpInside" id="KWv-Fs-RhN"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQZ-zb-nRf">
                     <rect key="frame" x="10" y="150" width="75" height="30"/>
